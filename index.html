@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dd26c23c52.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container" id="container">
+	<div class="form_container sign_in_container">
+		<form action="#">
+			<h2>Sign in</h2>
+			<div class="social_container">
+				<a href="https://www.facebook.com/" target="_blank" class="social"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="https://www.google.com/" target="_blank" class="social"><i class="fa-brands fa-google"></i></a>
+				<a href="https://www.instagram.com/" target="_blank" class="social"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+			<span>or use your account</span>
+			<input type="text" placeholder="Username" maxlength="10" required/>
+			<input type="password" placeholder="Password" maxlength="10" required/>
+			<button href="#" class="btn" type="submit">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				Sign In
+			</button>
+		</form>
+	</div>
+	<div class="form_container sign_up_container">
+		<form action="#">
+			<h2>Create Account</h2>
+			<div class="social_container">
+				<a href="https://www.facebook.com/" target="_blank" class="social"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="https://www.google.com/" target="_blank" class="social"><i class="fa-brands fa-google"></i></a>
+				<a href="https://www.instagram.com/" target="_blank" class="social"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" placeholder="Username" maxlength="10" required/>
+			<input type="email" placeholder="Email" required/>
+			<input type="password" placeholder="Password" maxlength="10" required/>
+			<button href="#" class="btn" type="submit">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				Sign Up
+			</button>
+		</form>
+	</div>
+	<div class="overlay_container">
+		<div class="overlay">
+			<div class="overlay_panel overlay_left">
+				<h2>Hello, Friend!</h2>
+				<p>Enter your personal details and start journey with us</p>
+				<button class="overlay_btn" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay_panel overlay_right">
+				<h2>Welcome Back!</h2>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="overlay_btn" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>
