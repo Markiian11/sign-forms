@@ -1,0 +1,23 @@
+@media (max-width: 535px) {
+  .container .form_container form input {
+    width: 130px;
+  }
+  .container .form_container form h2 {
+    white-space: nowrap;
+  }
+  .container .form_container form .social_container {
+    width: 160px;
+  }
+  .container .form_container form span {
+    font-size: 14px;
+  }
+  .container .form_container form .btn {
+    width: 130px;
+  }
+  .container .overlay_container .overlay_btn {
+    width: 150px;
+  }
+  .container .overlay_container p {
+    margin: 20px -30px 30px;
+  }
+}/*# sourceMappingURL=adaptive.css.map */

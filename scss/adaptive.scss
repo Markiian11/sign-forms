@@ -1,0 +1,31 @@
+@media (max-width:535px){
+    .container{
+        .form_container{
+            form{
+                input{
+                    width: 130px;
+                }
+                h2{
+                    white-space: nowrap;
+                }
+                .social_container{
+                    width: 160px;
+                }
+                span{
+                    font-size: 14px;
+                }
+                .btn{
+                    width: 130px;
+                }
+            }
+        }
+        .overlay_container{
+            .overlay_btn{
+                width: 150px;
+            }
+            p{
+                margin:20px -30px 30px;
+            }
+        }
+    }
+}
